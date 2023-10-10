@@ -1,0 +1,44 @@
+<!-- HTML ENTITIES -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Entities</title>
+</head>
+<body>
+    <div class="container">
+    <p>This is a paragraph</p>
+    </div>
+
+    <div class="container">
+        <p>This is a       paragraph</p>  <!--html space chop karke ek hi space manta hai-->
+    </div>
+
+        <!-- aap space additional chahte hai to apko additional entities lagana padega -->
+
+        <div class="container">
+            <p>This is a &nbsp; paragraph</p>  <!--html space chop karke ek hi space manta hai-->
+        </div>
+
+        <!-- nbsp means non breaking space
+        spaces lane ke liye nbsp use mat karo kyuki hum use karenge margin,padding,css selectors -->
+
+
+        <p>paragraph is written like this<p></p>
+        <!-- muje <p> ye bhi print karvana hai but compiler isse as a tag le raha hai -->
+
+        <p>paragraph is written like this &lt;p&gt;</p>   
+        <!-- ye hoti hai html entities -->
+
+
+        <p>pound is written like this &pound;</p>
+        <p>copyright is written like this &copy</p>
+        <p>this is written like this &rAarr;</p>
+        <p>1/4 is written like this &frac14;</p>
+        <p>Empty character is written like this &#8203;</p>
+</body>
+</html>
+
+<!-- class multiple elements ko de sakte ho lekin id unique honi chaiye -->
